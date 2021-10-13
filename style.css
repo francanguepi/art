@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 8%;
+    position: sticky;
+    top: 0;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+nav .buttons button{
+    margin-right: 20px;
+}
+nav .buttons .login, nav .buttons .register{
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+nav .buttons .login{
+    background: #141414;
+}
+nav .buttons .register{
+    background: #f54266;
+}
+
+header{
+    margin-top: 40px;
+    background: url('https://officialpsds.com/imageview/rn/62/rn6205_large.png?1521316483');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: center;
+}
+header h1{
+    font-size: 70px;
+    text-align: center;
+    padding: 150px;
+    transition: transform 2.5s;
+}
+footer{
+    background-color: #1a1a1a;
+    padding: 25px 100px;
+    color:#828282;
+
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer .colonnes .colonne{
+    margin-right: 30px;
+} */
